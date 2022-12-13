@@ -1,0 +1,45 @@
+.list-group {
+    display: block;
+    height: 0px;
+    width: 100%;
+    transition: all 0.4s;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+.list-group-item {
+    display: block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+}
+.dropdown {
+    display: block;
+    height: 200px;
+    overflow: hidden;
+}
+.black-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    color : rgb(0, 0, 0);
+    visibility: hidden;
+    z-index: 5;
+    padding: 30px;
+    opacity: 0;
+    transition: all 1s;
+}
+.show-modal {
+    visibility: visible;
+    opacity: 1;
+}
+.white-bg {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+} 
